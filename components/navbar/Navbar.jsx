@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
       </LinkItem>
 
-      <LinkItem href="/practice" isActive={pathname === "/practice"}>
+      <LinkItem href="/practice" isActive={pathname.includes("/practice")}>
         Practice
       </LinkItem>
       <LinkItem href="/learn" isActive={pathname === "/learn"}>

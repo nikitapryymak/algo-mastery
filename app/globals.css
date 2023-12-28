@@ -7,3 +7,9 @@
     @apply flex justify-center items-center;
   }
 }
+
+@layer components {
+  .btn-pill {
+    @apply py-1 px-3 text-inherit border border-slate-400 rounded-full text-sm;
+  }
+}
