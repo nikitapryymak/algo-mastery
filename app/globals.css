@@ -13,3 +13,17 @@
     @apply py-1 px-3 text-inherit border border-slate-400 rounded-full text-sm;
   }
 }
+
+/* Markdown styles */
+.markdown > * {
+  all: revert;
+}
+
+.markdown > h2,
+.markdown > h4 {
+  @apply text-white font-semibold;
+}
+
+.markdown > p > code {
+  @apply text-blue-400 bg-slate-800 px-1 rounded;
+}

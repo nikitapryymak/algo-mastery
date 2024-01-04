@@ -10,7 +10,7 @@ const ACTIVE_CLASSES = "text-slate-900 border-pink-400 bg-pink-400";
 export default function Page() {
   const [problemType, setProblemType] = useState(ALGORITHMS);
   return (
-    <div>
+    <div className="max-w-[800px]">
       <div className="flex gap-5 w-fit mx-auto mb-8">
         <button
           className={`btn-pill hover:text-slate-900 hover:border-pink-400 hover:bg-pink-400 ${

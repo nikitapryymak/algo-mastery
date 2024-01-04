@@ -5,7 +5,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "hover-gray": "rgb(58 58 58 / 50%)",
+      },
+    },
   },
   plugins: [require("daisyui")],
 };
